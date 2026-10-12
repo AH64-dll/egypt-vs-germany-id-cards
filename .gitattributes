@@ -1,9 +1,13 @@
 * text=auto
+*.csv text eol=lf
+*.py text eol=lf
+*.md text eol=lf
 *.pdf binary
 *.pptx binary
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.ttf binary
+*.fntdata binary
 *.json text
 *.html text

@@ -8,8 +8,14 @@ import io
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-path = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "output/_draft.pptx"
+path = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "output/Egypt-vs-Germany-ID-Cards.pptx"
 prs = Presentation(str(path))
+if len(prs.slides) == 24:
+    import runpy
+    if len(sys.argv) == 1:
+        sys.argv.append(str(path))
+    runpy.run_path(str(pathlib.Path(__file__).parent / "qa_english.py"), run_name="__main__")
+    raise SystemExit(0)
 SW, SH = prs.slide_width, prs.slide_height
 AR = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
 LAT = re.compile(r"[A-Za-z]")

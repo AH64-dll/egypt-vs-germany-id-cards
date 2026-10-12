@@ -1,5 +1,13 @@
 # Claims register
 
+Current deliverable: 24-slide English lecture summary, 12 October 2026.
+This register preserves the prior claim IDs and bibliography; slide locations
+are in the updated coverage matrix and English deck manifest. Some historical
+background claims below are deliberately omitted from the concise slides.
+SP1 future-vision items remain proposals. The exact Egyptian polymer and print
+method remain unspecified. The comparison uses Germany's documented May 2024
+design, rather than making an unverified claim about the latest 2026 design.
+
 Status codes: **L** = lecture · **V** = verified official/primary · **M** = manufacturer · **S** = secondary (flagged on slide/notes) · **G** = industry-general (labelled "general practice") · **X** = unverified → not shown on slides
 
 ## Germany (current card, design from 2 May 2024)

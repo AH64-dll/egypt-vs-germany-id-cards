@@ -1,0 +1,170 @@
+[
+  {
+    "slide": 1,
+    "title": "",
+    "refs": "SP1 · SP2 · PP1 · PP2",
+    "effects": 7,
+    "notes": "Prepared by Kareem Waleed Wagdy, student code 792400615, for Security Printing, under the supervision of Rania Mohamed. This English-only lecture summary compares the Egyptian card described in Security Printing Lecture 1 with the German 2024 design documented by BMI. The photographs are specimens. The 3D cover artwork is an illustration, not a manufactured or authenticated document."
+  },
+  {
+    "slide": 2,
+    "title": "Easy to verify. Difficult to reproduce.",
+    "refs": "SP1 pp.3–8 · SP2 p.4",
+    "effects": 14,
+    "notes": "The distinction between valuable and secure documents is a classroom discussion in SP1. Our working explanation is that value comes from money, access, legal status or rights, whereas security comes from measures that deter forgery, alteration and substitution. A document may have both. Examples in SP1 include paper and polymer banknotes; driving and weapon licences; birth, leadership, military and death certificates; identity and membership cards; transport and paid tickets; bank checks and credit cards; stamps; prepaid phone cards and entry/exit cards. Identification evolved from handwriting to analog copying to digital methods. The earlier use of glued photographs or metal pins made portrait substitution easier. Course aims include secure materials, security technologies, banknotes, cards, stamps, certificates and government papers; prepress covers digital systems, lasers, hardware and plate production."
+  },
+  {
+    "slide": 3,
+    "title": "Two countries. Four card faces.",
+    "refs": "SP1 pp.12–19 · BMI 2024 · PAP · WM-EG",
+    "effects": 12,
+    "notes": "Egyptian front/back specimen images have personal fields replaced by field labels by the Wikimedia uploader (Heshamdiab16, CC BY-SA 3.0). German specimens depict fictional holder Erika Mustermann, supplied by BMI/Personalausweisportal. Egyptian front: portrait, Arabic fields, pyramids/Sphinx, MLI and factory-number region. Egyptian back: Tutankhamun Kinegram, pharaonic scene, UV-responsive eagle, data and 2D barcode. German front: integrated colour photo, engraved data, CAN, Identigram and optically variable chip logo. Back: variable laser image, security thread, embossed map, eID logo, address and machine-readable zone. Images show card appearance; ordinary-light pictures cannot demonstrate UV fluorescence or angle-dependent behaviour. Card anatomy overview based on the SP1 p.19 labelled feature map."
+  },
+  {
+    "slide": 4,
+    "title": "A secure document is built in four stages",
+    "refs": "SP2 pp.5–11",
+    "effects": 11,
+    "notes": "Lecture life-cycle model: card body → print → personalize → finishing. The card body can be paper or polymer; substrate security may include watermarks, security strips and fluorescent fibres, depending on document type. General lecture diagrams show overlays, holographic laminates, colour images (300 dpi), UV images, monochrome printing, barcode/QR, magnetic stripes, contact chips, proximity/MIFARE, PET print layers and prelaminated antennas. These are options across card systems, not claims that all are present in either national card. A clear or holographic overlaminate may be local or full-surface; finishing is sometimes unnecessary. HDP/retransfer film, clear PVC, lithographic/digital PET and antenna prelaminate are examples from the general diagrams. The 3D layer rendering is conceptual: neither card's exact internal stack is established by this illustration."
+  },
+  {
+    "slide": 5,
+    "title": "Choose personalization for the document's lifetime",
+    "refs": "SP2 pp.13–17",
+    "effects": 18,
+    "notes": "SP2 names four criteria: security capacity, durability, quality and cost. Personalization must add protection instead of weakening an otherwise secure blank. Data and portraits must stay legible throughout the card's service life, with all elements remaining equally durable. Image/text quality should remove ambiguity during verification because secure documents convey civil or financial rights. Cost matters more for short-life tickets; for IDs, passports and financially important cards it is secondary to security, durability and quality. No country-specific cost, throughput or quality score is publicly established here."
+  },
+  {
+    "slide": 6,
+    "title": "Materials determine durability and security",
+    "refs": "SP2 pp.18–26 · ISO/IEC 7810 · BDR",
+    "effects": 33,
+    "notes": "SP2 describes the move from secure paper toward plastic materials beginning in the 1970s. PVC is the least expensive card plastic in the lecture and is common in telecom/contactless cards; lower resistance to heat, load, bending and UV can produce delamination, erosion or partial damage, with a generic 3–5-year expected lifespan. Modified polyester materials are labelled PETG and PETF in the lecture; preserve this terminology as lecture wording rather than equating all polyester grades. Composite structures combine different materials to balance durability, security and affordability. Polycarbonate supports several print methods and optically variable elements, but the lecture warns of brittleness, cracking and surface damage. Fused polycarbonate layers and internal laser marking are industry explanations, not a disclosed Egyptian recipe. Germany's polycarbonate is documented by Bundesdruckerei; the exact Egyptian polymer is not established in the supplied lecture. ISO/IEC 7810 nominal sizes: ID-000 25×15 mm, ID-1 85.60×53.98 mm, ID-2 105×74 mm, ID-3 125×88 mm. The lecture labels the smallest format ID-0 and has an inconsistent ID-2 height range; use standard nominal values. Typical ID-1 thickness is 0.76 mm; this is a format specification, not a measured Egyptian thickness."
+  },
+  {
+    "slide": 7,
+    "title": "Prepress turns a design into a printable master",
+    "refs": "PP1 pp.3–9 · PP2 pp.6–7, 30",
+    "effects": 14,
+    "notes": "Printing transfers ink, toner or other material to a substrate to produce physical content. Gutenberg is the historical milestone highlighted in PP1; modern methods include inkjet, laser, offset, flexography and 3D printing. The full workflow is originals → reproduction preparation → film or digital imaging → platemaking → press → finishing. Premedia prepares text/images for multiple publication media; prepress ends at the ready-for-print master. Conventional prepress assembles individual films mechanically; digital prepress processes pages electronically and uses computer-to-film (CTF) or computer-to-plate (CTP) output. CMYK separations shown in PP2 convert an RGB source to cyan, magenta, yellow and black print channels. Additional colour management, effective image resolution, fine-line integrity and registration checks are general production practice. No exact Egyptian or German production press is established by these teaching diagrams. Printed products include books, packaging, labels, stamps, securities and credit/check cards. The relief principle diagram illustrates transfer from raised inked image areas, unlike planographic offset."
+  },
+  {
+    "slide": 8,
+    "title": "Offset lithography: plate → blanket → substrate",
+    "refs": "PP1 pp.10–25 · PP2 p.11",
+    "effects": 20,
+    "notes": "Conventional offset is indirect lithography: water wets hydrophilic non-image regions while oil-based ink adheres to image regions. The plate transfers ink to a rubber blanket; the blanket prints onto a substrate supported by the impression cylinder. The plate does not touch the final stock, reducing plate wear; rubber conforms to surface irregularities. Sheet-fed handles individual sheets; web-fed uses continuous rolls subsequently cut and finished, generally suited to high-volume production. PP1 gives illustrative sheet-fed speeds of 12,000–24,000 sheets/hour; these are teaching examples and machine-dependent. Web-speed figures in PP1 mix incompatible units, so they are omitted instead of treated as precise specifications. Advantages: consistent sharp images, colour accuracy, substrate versatility and economical large runs. Limits: plate setup time/cost, less economical small runs, inefficient per-holder changes, and chemical/environmental handling needs. Security-card backgrounds can use offset in general industry practice, often waterless/UV-curing on plastics; the specific production route of these two national cards is not established here."
+  },
+  {
+    "slide": 9,
+    "title": "Printing plates: wet or waterless?",
+    "refs": "PP2 pp.8–21, 28",
+    "effects": 34,
+    "notes": "These are printing-plate materials, not the finished card-body polymers. Conventional plates use a dampening/fountain solution to keep non-image areas ink-free. Waterless plates use ink-repelling silicone and do not use a dampening solution. Grained aluminium provides long run durability; SP2's lecture examples indicate 100,000–2,000,000+ impressions, depending on plate and operating conditions. Coatings may be silver-halide or photopolymer. Polyester plates are cheaper, generally for 25,000 or fewer impressions; red/IR laser imaging, toner/heat or photosensitive technologies depend on plate type. Lecture thickness: polyester 0.004–0.012 inches; cellulose paper plates 0.004–0.008 inches. Paper plates are chemically treated, not grained, and used for small presses/runs with toner-based recording. The CTP diagram shows an infrared-sensitive layer, UV-ink-resistant layer, hydrophilic layer, multi-grain layer and aluminium support; another plate illustration shows protective/photosensitive layers over aluminium. These are examples, not universal plate recipes. File preparation precedes plate preparation; imaging and registration must match the intended output."
+  },
+  {
+    "slide": 10,
+    "title": "Plate preparation: control every stage",
+    "refs": "PP2 pp.22–34",
+    "effects": 14,
+    "notes": "Traditional plate preparation comprises photolithography, chemical treatment, perforating/punching and edge bending. Exposure: film must contact the plate in the correct position; clean exposure glass, maintain vacuum/suction and light intensity, and calibrate exposure time because it affects point/dot size. Manual or automated development is possible. Control developer temperature and replenishment, wash water and gum supply/viscosity. Chemical steps: develop → wash → gum → dry (the lecture's English 'gluing' is conventionally called gumming). Punching enables stable film placement, colour registration and proper cylinder alignment; edge bending lets clamps/pins secure the plate on press. Automated CTP diagrams show autoloader, imaging, processor and stacker; automation still needs calibration. Plate-room safety in the lecture: ventilation, gloves, protect eyes, maintain 18–22°C and provide first aid. CMYK separation and registration preserve fine security lines. The exact production settings of either national ID are not disclosed."
+  },
+  {
+    "slide": 11,
+    "title": "Security backgrounds carry more than decoration",
+    "refs": "SP1 pp.13, 18 · BMI 2024 #4, #6, #7",
+    "effects": 17,
+    "notes": "Guilloche consists of intricate fine-line patterns. SP1 describes precise designs prepared in specialist software and tells verifiers to distinguish continuous fine lines from a crude dot-based reproduction under magnification. Its 'sold only to governments' phrasing is the lecture's statement, not a claim that every guilloche tool is legally restricted. Rainbow/iris printing gives a continuous colour gradient; Germany's official flyer explicitly describes rainbow UV eagle/lettering. Positive microtext uses small printed characters; negative microtext uses characters reversed out of ink. A magnifier helps assess legibility and line quality. Egyptian 'Relief' refers to the lecture's security design printing the word 'Egypt' across the back; this is not proof of intaglio, physical embossing or a particular relief-printing press. The macros here are illustrative specimen crops and do not show every feature under its actual inspection condition."
+  },
+  {
+    "slide": 12,
+    "title": "Egypt: visible and angle-dependent security",
+    "refs": "SP1 pp.11–13 · WM-EG",
+    "effects": 17,
+    "notes": "SP1 divides the card's features into four examination levels: public external features; specialist external features; hidden features examined by specialists using simple tools; laboratory checks at the card production centre. At public level, the Multi Laser Image below the portrait can be felt and changes the visibility of date of birth and national emblem with viewing angle. The Tutankhamun Kinegram on the reverse changes appearance in horizontal/vertical viewing directions. The lecture spells this 'Kingram'; use Kinegram as the product spelling. Rainbow printing and the repeated 'Egypt' relief design are also discussed. The MLI crop is from a lecture image with holder data masked; the other images are specimen details. Static crops show location and artwork; the presentation's entrance animation is not a simulation or proof of the optical feature itself."
+  },
+  {
+    "slide": 13,
+    "title": "Egypt: specialist, hidden and laboratory features",
+    "refs": "SP1 pp.14–18",
+    "effects": 14,
+    "notes": "Specialist external features in SP1: factory number derived from a secret equation, unique to the card and recorded against the holder in the national ID database; visible microprint in the lower front reads 'Ministry of Interior – Civil Status Sector'; and the encrypted 2D barcode on the reverse. Microprint can be read using a simple magnifier (the illustrated list states 5×). Hidden/tool-based features include invisible UV microtext with the same ministry wording, guilloche line quality under magnification, and visible ink that fluoresces under UV, such as the eagle on the back. Laboratory categories are material-related marks, intentional printing errors in confidential design areas and filter-only writing. Their confidential details are not given; listing these categories does not enable an actual laboratory authentication. Database and barcode checks require the appropriate authorized systems. Neither a visually plausible number nor a successful generic scan proves authenticity."
+  },
+  {
+    "slide": 14,
+    "title": "Egypt: link the printed card to one holder",
+    "refs": "SP1 pp.13–15 · WIKI-EG (secondary)",
+    "effects": 12,
+    "notes": "The lecture documents the portrait, holder data, MLI, unique factory number and encrypted reverse-side 2D barcode. The factory number is associated with the holder in the national ID database and checked there; barcode data can be decoded for comparison with visible data and electronic transfer to beneficiary systems. The 14-digit national number and PDF417 barcode format come from secondary background research, not a newly verified official manufacturing specification. We omit the digit-generation algorithm because it is unnecessary for this summary. The exact photo/text personalization process and precise card polymer are not stated by the supplied lectures; no laser, thermal or inkjet method is asserted for the Egyptian card. Chip technology, agency applications and biometrics appear in the future vision section of SP1 and must not be presented as deployed features."
+  },
+  {
+    "slide": 15,
+    "title": "Germany: secure body and integrated personalization",
+    "refs": "BMI 2024 #1, #2 · PAP · BDR",
+    "effects": 16,
+    "notes": "The comparison refers to the German ID card design documented in the May 2024 BMI flyer, introduced on 2 May 2024; the doctoral-degree field moved to the reverse. The chip-card system began in November 2010. Bundesdruckerei documents polycarbonate for German eID cards. The official portal describes several plastic layers and protective lacquer. In general polycarbonate manufacture, fused layers and internal marking help reveal attempts to separate or replace data, but exact layer recipes are not disclosed here. BMI #1: colour photograph and document number are securely integrated with inkjet technology; all other personal data are high-contrast laser engraving on front/back. BMI #2: the expiry date and six-digit card access number (CAN) are engraved so they can be felt. CAN is a card-access number, not the holder's secret eID PIN. The face is also represented in a holographic portrait and the variable laser image. Source-specific facts are kept separate from industry explanations. SP1 p.22 includes a Veridos video: the Giesecke+Devrient / Bundesdruckerei joint venture is an additional industry example, not evidence of the Egyptian card's supplier."
+  },
+  {
+    "slide": 16,
+    "title": "Germany: optical and tactile features",
+    "refs": "BMI 2024 #3, #5, #8, #9",
+    "effects": 17,
+    "notes": "Identigram: the holder's holographic image appears green, the three-dimensional federal eagle red, with kinematic structures; additional design elements appear blue after a 90° card rotation. Optically variable ink in the ICAO 'chip inside' logo changes green/blue depending on viewing and illumination angle. The variable laser image shows either expiry date or portrait when tilted. Surface embossing on the reverse includes microprinting and a map of Germany; expiry/CAN are separate tactile engraved data. These are distinct technologies: colour-shifting ink, holographic/diffractive structure, angle-selective laser image and physical surface texture should not be conflated. The static macro pictures locate features; real optical verification needs an actual card."
+  },
+  {
+    "slide": 17,
+    "title": "Germany: UV, embedded features and electronic ID",
+    "refs": "BMI 2024 #4, #10–13 · PAP",
+    "effects": 17,
+    "notes": "BMI #4: UV reveals the federal eagle and multi-coloured luminescent lettering, both made using rainbow/iris printing. BMI #10: transparent fibres in the reverse luminesce under UV. #11: machine-verifiable embedded thread personalized with document number and name/given names. #12: address changes can be shown on a label, possibly protected by transparent foil; some labels use a 2D barcode checked by smartphone app instead of a stamp. #13: the eID logo indicates supported electronic-ID functionality. The contactless chip stores a facial image and two fingerprints, accessed by authorized officials; an eID workflow uses the holder's PIN for online identification with government or business. The public portal dates mandatory fingerprint enrolment to 2 August 2021, with applicable statutory exceptions. Iris biometrics are not described in these sources. The printed MRZ is a machine-readable representation, not the chip. Barcode, MRZ and authenticated chip reading are different kinds of checks. The flyer lists visual, magnifier, touch, tilt, overhead light, oblique light, UV and app verification methods."
+  },
+  {
+    "slide": 18,
+    "title": "Verification: use the right check for each feature",
+    "refs": "SP1 pp.11–18 · BMI 2024 · PAP",
+    "effects": 44,
+    "notes": "This comparison uses SP1's verification logic and the German flyer, not a numerical country ranking. Public: visual inspection, tilt and touch. Specialist: detailed design/microtext examination. Tools: magnifier, UV lamp, barcode reader and electronic systems, depending on the feature. Laboratory: confidential material/design checks. Some lecture categories overlap because a specialist-visible feature may still require a reader or a database. Germany's guide additionally specifies light from above, oblique light and app verification, particularly for address-label codes. Database access for the Egyptian factory number and authorized chip verification are not replaced by visual checks. A mismatch or missing feature requires a proper examination rather than an instant authenticity judgment from a photo."
+  },
+  {
+    "slide": 19,
+    "title": "Comparison table: characteristics and design",
+    "refs": "SP1 · SP2 · BMI 2024 · PAP · BDR · PAuswG §6 · WIKI-EG",
+    "effects": 44,
+    "notes": "SP2's assignment explicitly asks for a table comparing security features, characteristics and design. Egyptian issuer: Ministry of Interior, Civil Status Sector. German card is issued through competent identity-card authorities and produced by Bundesdruckerei; BMI supplies the national framework/design information. Germany: ID-1, multi-layer polycarbonate with protective lacquer, ten-year validity or six years if issued before age 24 under PAuswG §6. The Egyptian seven-year validity is secondary background from WIKI-EG; the lecture does not publish the precise polymer or dimensions. Both specimens have credit-card-like proportions; do not turn this observation into an official Egyptian standard declaration. Egyptian visible specimen motifs include pyramids/Sphinx, a pharaonic relief, Tutankhamun and an eagle. German motifs include federal eagle, Brandenburg Gate, EU flag/DE and embossed country map. Labels are Arabic on the Egyptian specimen and German/English/French on the German card. German three portrait representations are the inkjet image, holographic portrait and variable laser image; Egypt's MLI displays birth date/emblem, not a second portrait."
+  },
+  {
+    "slide": 20,
+    "title": "Comparison table: security and personalization",
+    "refs": "SP1 pp.12–18 · BMI 2024 · PAP",
+    "effects": 44,
+    "notes": "Both cards combine fine security printing with optical effects and machine-readable data, but the documented scope is different. The Egyptian lecture documents MLI, Kinegram, guilloche, rainbow printing, repeated 'Egypt' relief, visible/invisible microtext, UV eagle, unique factory number, encrypted barcode and laboratory categories. The German flyer documents multicolour guilloches/anti-copy patterns, positive/negative microtext, Identigram, OVI logo, variable laser image, tactile engraved data, surface embossing, rainbow UV features, fibres, personalized thread and a contactless eID chip. German inkjet and laser processes are explicitly documented, whereas Egypt's personalization technology and polymer are not established here. Biometrics and chip applications appear only as future proposals in the Egyptian lecture. This is a comparison of the supplied evidence, not proof that every unlisted feature is absent from an actual card."
+  },
+  {
+    "slide": 21,
+    "title": "Egypt's future vision vs Germany's documented features",
+    "refs": "SP1 pp.20–21 · BMI 2024 · PAP",
+    "effects": 34,
+    "notes": "Every item below is a future proposal in SP1, not evidence that it is already deployed on the Egyptian card. Proposed fluorescent UV rainbow effect has a documented counterpart in Germany's rainbow UV eagle and lettering. Embedded transparent hologram/Kinegram has a comparable purpose to the German Identigram, but is not the same construction. Tactile cold-laser factory number has a comparable tactile-data objective to Germany's engraved expiry/CAN, not an identical method or field. IR-reactive ink is not described by the public German flyer; no claim of absence is made. Contactless smart-card technology corresponds to Germany's contactless chip. Integrating health, social security and social-insurance services is a proposed multi-agency application scope; German eID supports digital services, but that is not proof the same health/social data is stored on the card. Proposed biometrics include fingerprints, iris and facial recognition; Germany's flyer documents facial image and two fingerprints, not iris. The comparison describes functional parallels and evidence limitations."
+  },
+  {
+    "slide": 22,
+    "title": "Finishing must protect data without hiding the checks",
+    "refs": "SP2 pp.11, 15, 21, 24–26 · PAP · BMI 2024 #12",
+    "effects": 14,
+    "notes": "SP2 states that transparent panels may be optional and may be local or full-surface, clear or optically variable. Their purpose is to protect holder data against damage/tampering, similar to lamination. Card-body, print, personalized image/data and finish should all endure for the intended service life. PVC delamination and PC brittleness/cracking illustrate why substrate selection and mechanical durability matter; these are lecture-level material trade-offs, not measurements of either national card. Germany's portal documents protective lacquer, and the BMI flyer describes optional transparent protection on address-change labels. Specific abrasion, heat, bending and solvent tests are general engineering evaluation examples; no private acceptance criteria are inferred. Do not cover security elements with a finish that makes legitimate public/tool verification impractical."
+  },
+  {
+    "slide": 23,
+    "title": "Three conclusions from the lecture comparison",
+    "refs": "SP1 · SP2 · PP1 · PP2 · BMI 2024 · PAP",
+    "effects": 14,
+    "notes": "The comparison is grounded in all four supplied lectures and strengthened by official German evidence. First, security is layered: substrate, printed design, personalization and finishing work together. Second, a feature is only useful when a verifier can test it, so public, specialist, tool-assisted and laboratory checks need different information and access. Third, the German sources establish polycarbonate, integrated inkjet, laser engraving and a contactless biometric/eID chip; the Egyptian lecture establishes optical/printed features, barcode and a database-linked factory number, while chip applications and biometrics appear as future proposals. These differences in published evidence do not justify unsupported cost/performance scores or a simplistic winner. The SP1 assignment asks for a 3D sample based on field/survey study; the cover/layer art supports illustration, but is not a completed physical sample or a field study. The SP2 comparison-table requirement is answered on slides 19–20."
+  },
+  {
+    "slide": 24,
+    "title": "Sources and image credits",
+    "refs": "Full claim register and lecture map: deck/research/",
+    "effects": 14,
+    "notes": "Primary academic sources: SP1 Security Printing Lecture 1 (23 pages); SP2 Security Printing Lecture 2 (27 pages); PP1 Prepress Technologies Lecture 1 (27 pages); PP2 Prepress Technologies Lecture 2 (35 pages), all by Rania Mohamed, 2026/27. Official German flyer (May 2024): https://bern.diplo.de/blob/2668104/e18dadad82d6bc712f8bc35fbd9dcc02/flyer-personalausweis-data.pdf . German portal: https://www.personalausweisportal.de/Webs/PA/EN/citizens/german-id-card/german-id-card-node.html . Manufacturer: https://www.bundesdruckerei.de/en/german-id-card-with-online-id-functionality . Validity law: https://www.gesetze-im-internet.de/pauswg/__6.html . Standard: ISO/IEC 7810:2019. Secondary Egyptian background: https://en.wikipedia.org/wiki/Egyptian_National_Identity_Card . Egyptian specimen: https://commons.wikimedia.org/wiki/File:Egyptian_ID_Card.jpg , Heshamdiab16, CC BY-SA 3.0, fields already replaced with labels by uploader; adapted crops retain this attribution. Licence: https://creativecommons.org/licenses/by-sa/3.0/ . German specimens/macros: BMI/Personalausweisportal, image credit BKA and Bundesdruckerei. Masked MLI crop: SP1. Other 3D artwork and diagrams: original assets retained from the repository. Official German flyer is included in the repository. Additional facts are attributed on slides and in notes. PDF is a static reading copy; animation runs in the PPTX slideshow."
+  }
+]
