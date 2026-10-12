@@ -1,0 +1,18 @@
+QA Egypt-vs-Germany-ID-Cards.pptx: 37 slides
+Coverage: 57/57 matrix rows matched on their mapped slides
+Errors: 0
+Warnings: 14
+  WARN s09 low effective resolution 87 ppi: Picture 2 (375x189px shown 4.30in wide)
+  WARN s09 low effective resolution 91 ppi: Picture 4 (189x375px shown 2.08in wide)
+  WARN s12 low effective resolution 132 ppi: Picture 6 (378x192px shown 2.85in wide)
+  WARN s12 low effective resolution 133 ppi: Picture 7 (378x375px shown 2.85in wide)
+  WARN s12 low effective resolution 99 ppi: Picture 16 (189x375px shown 1.90in wide)
+  WARN s12 low effective resolution 101 ppi: Picture 17 (192x375px shown 1.90in wide)
+  WARN s20 low effective resolution 126 ppi: Picture 4 (786x158px shown 1.93in wide)
+  WARN s28 low effective resolution 145 ppi: Picture 7 (418x452px shown 2.88in wide)
+  WARN s28 low effective resolution 130 ppi: Picture 11 (375x375px shown 2.88in wide)
+  WARN s28 low effective resolution 136 ppi: Picture 18 (393x512px shown 2.88in wide)
+  WARN s28 low effective resolution 130 ppi: Picture 22 (375x378px shown 2.88in wide)
+  WARN s28 low effective resolution 145 ppi: Picture 29 (1900x1167px shown 2.88in wide)
+  WARN s28 low effective resolution 131 ppi: Picture 33 (378x189px shown 2.88in wide)
+  WARN s28 low effective resolution 131 ppi: Picture 44 (378x195px shown 2.88in wide)

@@ -1,0 +1,36 @@
+<html><body style='margin:0;background:transparent'>
+<canvas id=c width=1400 height=1400></canvas><script>
+function rosette(ctx, cx, cy, R, rings, stroke, alpha, lw){
+  ctx.globalCompositeOperation='lighter';
+  for (let k=0;k<rings.length;k++){
+    const [Rr, r, d, n, ph] = rings[k];
+    for (let j=0;j<n;j++){
+      ctx.beginPath();
+      const phase = ph + j*2*Math.PI/n;
+      const N = 1400*r/gcd(Rr,r);
+      for (let i=0;i<=N;i++){
+        const t = i/N*2*Math.PI*r/gcd(Rr,r);
+        const x = (Rr-r)*Math.cos(t) + d*Math.cos((Rr-r)/r*t + phase);
+        const y = (Rr-r)*Math.sin(t) - d*Math.sin((Rr-r)/r*t + phase);
+        const X = cx + x*R/(Rr), Y = cy + y*R/(Rr);
+        if(i==0) ctx.moveTo(X,Y); else ctx.lineTo(X,Y);
+      }
+      ctx.strokeStyle = stroke(k,j); ctx.globalAlpha = alpha; ctx.lineWidth = lw; ctx.stroke();
+    }
+  }
+}
+function gcd(a,b){ return b? gcd(b, a%b) : a; }
+
+const c=document.getElementById('c'), ctx=c.getContext('2d'); const S=1400;
+const cols=['#FF5A1F','#D63A0B','#FF8A4C','#8F270D','#FFB08A'];
+const stroke=(k,j)=>cols[(k+j)%cols.length];
+const v=1;
+if(v==0){
+  rosette(ctx,S/2,S/2,S*0.46,[[96,27,40,6,0],[96,27,40,6,0.26]],stroke,0.22,1.1);
+  rosette(ctx,S/2,S/2,S*0.33,[[80,23,30,5,0.1],[80,23,30,5,0.45]],stroke,0.20,1.0);
+  rosette(ctx,S/2,S/2,S*0.20,[[60,17,22,4,0.3]],stroke,0.22,0.9);
+} else {
+  rosette(ctx,S/2,S/2,S*0.47,[[120,41,52,3,0]],stroke,0.30,0.9);
+  rosette(ctx,S/2,S/2,S*0.30,[[70,19,28,2,0.2]],stroke,0.28,0.8);
+}
+</script></body></html>
