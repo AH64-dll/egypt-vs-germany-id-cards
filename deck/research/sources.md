@@ -1,5 +1,33 @@
 # Sources
 
+## Current English revision (12 October 2026)
+
+The delivered deck is now 24 English slides. All four lectures remain the primary
+academic source; page references use PDF page numbers. Fuller lecture explanations
+are in English speaker notes and `english-deck-manifest.json`. The updated
+`coverage-matrix.csv` maps 57 lecture concepts to the new slide numbers.
+
+The stored BMI May 2024 flyer was read in full for the German feature comparison.
+PAuswG §6 and the Bundesdruckerei pages were fetched again on 12 October 2026.
+The live German citizen portal returned HTTP 400 in this environment, so that
+source was not newly reverified. The deck compares the documented 2024 design;
+it does not assert that no subsequent design change occurred.
+
+The current presentation uses the four lectures, BMI, PAP, BDR, ISO, PAuswG,
+WIKI-EG and WM-EG. REG/COV/ENG are background industry/secondary references from
+the existing research, not evidence of an unpublished Egyptian manufacturing
+process. The older HRW/NAH timeline claims are not used in the new slides.
+
+Egyptian current features are those described by the lecture. SP1 pp.20–21 are
+labelled as future proposals, including contactless technology and biometrics.
+The exact Egyptian polymer, personalization print method and production press
+are not asserted. The lecture's `Kingram` spelling is normalized to Kinegram;
+`gluing` during plate processing is explained as gumming. Standard ISO nominal
+dimensions replace the inconsistent ID-2 range in the lecture's diagram.
+
+The bibliography below preserves the original repository's source IDs and image
+licences. Not every retained reference is a claim in the current presentation.
+
 ## Course lectures (primary academic source of truth)
 | ID | Document | Notes |
 |---|---|---|

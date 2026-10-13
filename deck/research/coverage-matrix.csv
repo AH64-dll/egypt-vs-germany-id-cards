@@ -1,58 +1,58 @@
 id,concept,source,relevance,slides,external_research,keywords
-1,Course aims (security printing; prepress),SP1 p3; PP1 p3,general,3;14,no,course aim
-2,Valuable vs secure documents,SP1 p4-5,general,3,no,valuable|secure document
-3,Types of valuable printed matter (19) + examples,SP1 p6-8,general,3,no,banknotes|driving licen|postage stamps|bank checks
-4,Identification evolution; photo once fixed with stickers / metal pin,SP2 p4,both,4,no,handwriting|metal pin|sticker
-5,Easy to verify / difficult to reproduce,SP2 p4,both,4,no,easy to verify|difficult to reproduce
-6,Document-structure pyramid & life-cycle layers,SP2 p5; p8,both,10,no,card body|personali|finishing|life cycle
-7,Layer anatomy (overlay; holographic lamination; 300 dpi; PVC; proximity/MIFARE; chip; magnetic stripe; barcode/QR; mono-printing; UV image),SP2 p6,general,11,no,overlay|holographic lamination|300 dpi|MIFARE|magnetic stripe|QR
-8,Base layer = primary material + substrate security (watermarks; strips; fluorescent fibres),SP2 p7,both,12,yes,watermark|fibres|primary material
-9,Overlaminate / HDP film / clear PVC / PET litho+digital / prelam antenna,SP2 p9-10,general,11,no,overlaminate|PET|prelam|antenna
-10,Fourth layer: transparent panels / holograms (local or full surface),SP2 p11,both,12;31,yes,fourth layer|transparent|local
-11,Selection criteria: security capacity; durability; quality; cost,SP2 p13-17,both,21,no,security capacity|durability|quality|cost
-12,ISO card formats ID-0..ID-3,SP2 p18-19,both,7,yes,ID-1|ID-2|ID-3|ISO
-13,Materials history: secure paper -> plastics since 1970s,SP2 p20,both,8,no,1970s|secure paper
-14,Polycarbonate (multi-process printing; OVD laminates; brittleness),SP2 p21,DE,9,yes,polycarbonate|brittle
-15,PVC (cheapest; telecom/contactless; weak vs heat/bending/UV; delamination; 3-5 years),SP2 p23-24,general,8,no,PVC|3–5|least expensive
-16,Polyester PETG / PETF,SP2 p25,general,8,no,PETG|PETF
-17,Composite materials,SP2 p26,general,8,no,composite
-18,Four-level verification model,SP1 p11,both,24,no,average person|specialists|laboratory
-19,Multi Laser Image,SP1 p12-13,EG,22;25,no,Multi Laser Image|MLI
-20,Kinegram (Tutankhamun),SP1 p12-13,EG,25,no,Kinegram|Tutankhamun
-21,Rainbow printing,SP1 p12-13,EG,20;25,yes,rainbow
-22,Relief multi-angle 'Egypt',SP1 p12-13,EG,25,no,relief
-23,Factory number (secret equation; database),SP1 p14-15,EG,22;26,no,factory number|secret equation
-24,Visible microprint 5x (MoI - Civil Status Sector),SP1 p14-15,EG,26,no,5×|Civil Status
-25,2D barcode (encrypted),SP1 p14-15,EG,22;29,yes,2D barcode|PDF417
-26,Lab marks (materials; intentional errors; filter-only text),SP1 p16,EG,26,no,intentional|filter
-27,Invisible UV microtext,SP1 p17-18,EG,26,no,invisible
-28,Guilloche (government-only software; continuous lines vs dots),SP1 p17-18,both,20;26,no,guilloche|continuous
-29,UV-fluorescent visible ink (eagle),SP1 p17-18,EG,26,no,eagle|UV
-30,Labelled feature map,SP1 p19,EG,6;25,no,feature map|anatomy
-31,Future vision (UV rainbow; embedded hologram; tactile cold laser; IR ink; contactless; apps; biometrics),SP1 p20-21,EG->DE,30,yes,IR|tactile|contactless|biometric
-32,Veridos (G+D + Bundesdruckerei),SP1 p22,DE,23,yes,Veridos|Bundesdruckerei
-33,Printing definition; Gutenberg; inkjet/laser/offset/flexo/3D,PP1 p4,general,14,no,Gutenberg|flexograph
-34,Prepress -> press -> post-press; relief principle,PP1 p5,general,14,no,post-press|prepress
-35,Printed products incl. securities / credit & check cards,PP1 p6,general,14,no,securities|credit
-36,Prepress & premedia definition; workflow chain,PP1 p7-8,general,15,no,premedia|printing plate|film
-37,Conventional vs digital prepress (CTP/CTF),PP1 p9,general,15,no,computer to plate|CTP
-38,Offset principle (indirect; oil/water; blanket; plate life; rough media),PP1 p10-12,general,16,no,blanket|indirect|oil
-39,How it works (plate; ink+water; blanket transfer; impression),PP1 p22; PP2 p3; p11,general,16,no,impression cylinder|hydrophilic
-40,Consistent quality; small to high volume,PP1 p13,general,16,no,consistent
-41,Sheet-fed (12-24k sph) vs web (80k sph; rolls),PP1 p15-21,general,17,no,sheet-fed|web|80
-42,Offset advantages,PP1 p24,general,17,no,versatil|advantage
-43,Offset disadvantages,PP1 p25,general,17,no,small runs|environment
-44,File vs plate preparation,PP2 p6-7,general,18;19,no,file preparation
-45,Conventional wet vs waterless (silicone) plates,PP2 p8-13; p28,general,18,yes,waterless|silicone
-46,Plate substrates metal / polyester / paper,PP2 p15-21,general,18,no,metal|polyester|paper
-47,CTP plate layer structures,PP2 p17-19,general,18,no,photosensitive|multi-grain
-48,Plate-making stages,PP2 p22,general,19,no,photolithography|edge bending
-49,Exposure setup & dot size,PP2 p23-24,general,19,no,exposure
-50,Chemical processing (manual/auto; temperature; develop-wash-gum-dry),PP2 p25-27,general,19,no,development|gum|drying
-51,CTP line (autoloader; processor; stacker),PP2 p29,general,19,no,autoloader|stacker
-52,CMYK separation,PP2 p30,general,19;20,yes,CMYK
-53,Perforation / registration (196.5 / 425 mm),PP2 p32,general,19,no,196.5|perforat
-54,Edge bending & mounting,PP2 p33,general,19,no,bend
-55,Plate-room safety (18-22 C),PP2 p34,general,19,no,18–22|ventilation
-56,Assignment: comparison table (security; characteristics; design),SP2 p27,both,33;34,no,security features|design
-57,Assignment: 3D sample of an ID card,SP1 p23,both,1;2;11,no,3D
+1,Course aims (security printing; prepress),SP1 p3; PP1 p3,general,2;7,no,course aim
+2,Valuable vs secure documents,SP1 p4-5,general,2,no,valuable|secure document
+3,Types of valuable printed matter (19) + examples,SP1 p6-8,general,2,no,banknotes|driving licen|postage stamps|bank checks
+4,Identification evolution; photo once fixed with stickers / metal pin,SP2 p4,both,2,no,handwriting|metal pin|sticker
+5,Easy to verify / difficult to reproduce,SP2 p4,both,2,no,easy to verify|difficult to reproduce
+6,Document-structure pyramid & life-cycle layers,SP2 p5; p8,both,4,no,card body|personali|finishing|life cycle
+7,Layer anatomy (overlay; holographic lamination; 300 dpi; PVC; proximity/MIFARE; chip; magnetic stripe; barcode/QR; mono-printing; UV image),SP2 p6,general,4,no,overlay|holographic lamination|300 dpi|MIFARE|magnetic stripe|QR
+8,Base layer = primary material + substrate security (watermarks; strips; fluorescent fibres),SP2 p7,both,4,yes,watermark|fibres|primary material
+9,Overlaminate / HDP film / clear PVC / PET litho+digital / prelam antenna,SP2 p9-10,general,4,no,overlaminate|PET|prelam|antenna
+10,Fourth layer: transparent panels / holograms (local or full surface),SP2 p11,both,4;22,yes,fourth layer|transparent|local
+11,Selection criteria: security capacity; durability; quality; cost,SP2 p13-17,both,5,no,security capacity|durability|quality|cost
+12,ISO card formats ID-0..ID-3,SP2 p18-19,both,6,yes,ID-1|ID-2|ID-3|ISO
+13,Materials history: secure paper -> plastics since 1970s,SP2 p20,both,6,no,1970s|secure paper
+14,Polycarbonate (multi-process printing; OVD laminates; brittleness),SP2 p21,DE,6,yes,polycarbonate|brittle
+15,PVC (cheapest; telecom/contactless; weak vs heat/bending/UV; delamination; 3-5 years),SP2 p23-24,general,6,no,PVC|3–5|least expensive
+16,Polyester PETG / PETF,SP2 p25,general,6,no,PETG|PETF
+17,Composite materials,SP2 p26,general,6,no,composite
+18,Four-level verification model,SP1 p11,both,12;13;18,no,average person|specialists|laboratory
+19,Multi Laser Image,SP1 p12-13,EG,12;14,no,Multi Laser Image|MLI
+20,Kinegram (Tutankhamun),SP1 p12-13,EG,12,no,Kinegram|Tutankhamun
+21,Rainbow printing,SP1 p12-13,EG,11;12,yes,rainbow
+22,Relief multi-angle 'Egypt',SP1 p12-13,EG,11;12,no,relief
+23,Factory number (secret equation; database),SP1 p14-15,EG,13;14,no,factory number|secret equation
+24,Visible microprint 5x (MoI - Civil Status Sector),SP1 p14-15,EG,13,no,5×|Civil Status
+25,2D barcode (encrypted),SP1 p14-15,EG,13;14,yes,2D barcode|PDF417
+26,Lab marks (materials; intentional errors; filter-only text),SP1 p16,EG,13,no,intentional|filter
+27,Invisible UV microtext,SP1 p17-18,EG,13,no,invisible
+28,Guilloche (government-only software; continuous lines vs dots),SP1 p17-18,both,11;13,no,guilloche|continuous
+29,UV-fluorescent visible ink (eagle),SP1 p17-18,EG,13,no,eagle|UV
+30,Labelled feature map,SP1 p19,EG,3,no,feature map|anatomy
+31,Future vision (UV rainbow; embedded hologram; tactile cold laser; IR ink; contactless; apps; biometrics),SP1 p20-21,EG->DE,21,yes,IR|tactile|contactless|biometric
+32,Veridos (G+D + Bundesdruckerei),SP1 p22,DE,15,yes,Veridos|Bundesdruckerei
+33,Printing definition; Gutenberg; inkjet/laser/offset/flexo/3D,PP1 p4,general,7,no,Gutenberg|flexograph
+34,Prepress -> press -> post-press; relief principle,PP1 p5,general,7;8,no,post-press|prepress
+35,Printed products incl. securities / credit & check cards,PP1 p6,general,7,no,securities|credit
+36,Prepress & premedia definition; workflow chain,PP1 p7-8,general,7,no,premedia|printing plate|film
+37,Conventional vs digital prepress (CTP/CTF),PP1 p9,general,7,no,computer to plate|CTP
+38,Offset principle (indirect; oil/water; blanket; plate life; rough media),PP1 p10-12,general,8,no,blanket|indirect|oil
+39,How it works (plate; ink+water; blanket transfer; impression),PP1 p22; PP2 p3; p11,general,8,no,impression cylinder|hydrophilic
+40,Consistent quality; small to high volume,PP1 p13,general,8,no,consistent
+41,Sheet-fed (12-24k sph) vs web (80k sph; rolls),PP1 p15-21,general,8,no,sheet-fed|web|80
+42,Offset advantages,PP1 p24,general,8,no,versatil|advantage
+43,Offset disadvantages,PP1 p25,general,8,no,small runs|environment
+44,File vs plate preparation,PP2 p6-7,general,7;9,no,file preparation
+45,Conventional wet vs waterless (silicone) plates,PP2 p8-13; p28,general,9,yes,waterless|silicone
+46,Plate substrates metal / polyester / paper,PP2 p15-21,general,9,no,metal|polyester|paper
+47,CTP plate layer structures,PP2 p17-19,general,9,no,photosensitive|multi-grain
+48,Plate-making stages,PP2 p22,general,10,no,photolithography|edge bending
+49,Exposure setup & dot size,PP2 p23-24,general,10,no,exposure
+50,Chemical processing (manual/auto; temperature; develop-wash-gum-dry),PP2 p25-27,general,10,no,development|gum|drying
+51,CTP line (autoloader; processor; stacker),PP2 p29,general,10,no,autoloader|stacker
+52,CMYK separation,PP2 p30,general,7;10,yes,CMYK
+53,Perforation / registration (196.5 / 425 mm),PP2 p32,general,10,no,196.5|perforat
+54,Edge bending & mounting,PP2 p33,general,10,no,bend
+55,Plate-room safety (18-22 C),PP2 p34,general,10,no,18–22|ventilation
+56,Assignment: comparison table (security; characteristics; design),SP2 p27,both,19;20,no,security features|design
+57,Assignment: 3D sample of an ID card,SP1 p23,both,1;4;23,no,3D
